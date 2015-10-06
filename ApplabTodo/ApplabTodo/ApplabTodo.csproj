@@ -50,4 +50,10 @@
     <Folder Include="Views\" />
     <Folder Include="Pages\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ApplabTodo.Core\ApplabTodo.Core.csproj">
+      <Project>{41E897B8-F405-4B6B-ABAB-732AB6526F6F}</Project>
+      <Name>ApplabTodo.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
