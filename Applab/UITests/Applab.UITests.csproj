@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5ABA59B4-435B-497F-BD4A-3418C0D472C4}</ProjectGuid>
+    <ProjectGuid>{EE4012B0-DF2A-4A56-A86D-98D613445796}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>ApplabTodo.UITests</RootNamespace>
-    <AssemblyName>ApplabTodo.UITests</AssemblyName>
+    <RootNamespace>Applab.UITests</RootNamespace>
+    <AssemblyName>Applab.UITests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -29,23 +29,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Xamarin.UITest">
-      <HintPath>..\packages\Xamarin.UITest.1.1.1\lib\Xamarin.UITest.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.UITest">
+      <HintPath>..\packages\Xamarin.UITest.0.7.1\lib\Xamarin.UITest.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\iOS\ApplabTodo.iOS.csproj">
-      <Project>{557B4E49-F2EA-40C2-A01E-3E130C39E6D7}</Project>
-      <Name>ApplabTodo.iOS</Name>
+    <ProjectReference Include="..\iOS\Applab.iOS.csproj">
+      <Project>{12F80B3D-B3EE-478A-A425-629BF88BD25F}</Project>
+      <Name>Applab.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\Droid\ApplabTodo.Droid.csproj">
-      <Project>{94338136-BFF5-4BDA-8CA6-E1D696AE5A7A}</Project>
-      <Name>ApplabTodo.Droid</Name>
+    <ProjectReference Include="..\Droid\Applab.Droid.csproj">
+      <Project>{F1334E11-E904-4542-8175-49E4ABB488AB}</Project>
+      <Name>Applab.Droid</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
